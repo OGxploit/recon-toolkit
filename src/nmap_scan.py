@@ -8,3 +8,4 @@ def nmap_scan(target):
         return "[!] Nmap is not installed or not found in PATH."
     except Exception as e:
         return f"[!] Error: {e}"
+
